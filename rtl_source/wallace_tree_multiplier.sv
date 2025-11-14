@@ -25,7 +25,7 @@ module wallace_tree_multiplier
 (
     input logic [7:0] A,
     input logic [7:0] B,
-    output logic [7:0] Out
+    output logic [15:0] Out
 );
 
 // internal signals
